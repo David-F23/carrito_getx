@@ -17,7 +17,7 @@ class CatalogoProductos extends StatelessWidget {
           children: [
             CatalogoItems(),
             ElevatedButton(
-              onPressed: () => Get.to(const CartScreen()),
+              onPressed: () => Get.to(CartScreen()),
               child: const Text('ir al carrito'),
             )
           ],

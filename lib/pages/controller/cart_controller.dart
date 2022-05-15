@@ -18,7 +18,7 @@ class CartController extends GetxController {
       'Producto agregado', 
       'Estas agregando ${product.name} al carrito',
       snackPosition: SnackPosition.BOTTOM,
-      duration: const Duration(seconds: 2)
+      duration: const Duration(seconds: 1)
     );
   }
 
